@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kaas</title>
+	</head>
+	<body>
+		<script>
+			alert("Beantwoord de vragen met ja of nee en dan zal ik raden aan welke kaas je denkt!");
+			var color = prompt("Is de kaas geel?");
+			if(color == "ja"){
+				var gaten = prompt("Zitten er gaten in?");
+				if(gaten == "ja"){
+					var duur = prompt("Is de kaas belachelijk duur?");
+					if(duur == "ja"){
+						alert("U denkt aan Emmenthaler.");
+					}
+					else{
+						alert("U denkt aan U denkt aan U denkt aan Leerdammer.");
+					}
+				}
+				else{
+					var hard = prompt("Is de kaas hard als steen?");
+					if(hard == "ja"){
+						alert("U denkt aan U denkt aan Parmigiano Reggiano.");
+					}
+					else{
+						alert("U denkt aan Goudse Kaas.");
+					}
+				}
+			}
+			else{
+				var schimmels = prompt("Heeft de kaas blauwe schimmels?");
+				if(schimmels == "ja"){
+					var korst = prompt("Heeft de kaas een korst?");
+					if(korst == "ja"){
+						alert("U denk aan Bleu de Rochbaron.");
+					}
+					else{
+						alert("U denkt aan Fourme d'Ambert.");
+					}
+				}
+				else{
+					var korst2 = prompt("Heeft de kaas een korst?");
+					if(korst2 == "ja"){
+						alert("U denkt aan Camembert.")
+					}
+					else{
+						alert("U denkt aan Mozzarella.")
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
